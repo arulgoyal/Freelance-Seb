@@ -146,10 +146,7 @@ body{
     top: 0rem;
     z-index: -1;
 
-  }
-  
-
-
+}
 .index-maincontainer2{
     display: flex;
     flex-direction: column;
@@ -245,70 +242,9 @@ body{
     display: none;
 }
 
- 
- @media (max-width: 56.25rem) {
-    
-    section h1 {
-      font-size: 2rem;
-      text-align: center;
-    }
-    section .text-container {
-      flex-direction: column;
-    }
-  }
-  
-  /*.reveal {
-    position: relative;
-    opacity: 0;
-  }
-  
-  .reveal.active {
-    opacity: 1;
-  }
-  .active.fade-bottom {
-    animation: fade-bottom 1s ease-in;
-  }
-  .active.fade-left {
-    animation: fade-left 1s ease-in;
-  }
-  .active.fade-right {
-    animation: fade-right 1s ease-in;
-  }
-  @keyframes fade-bottom {
-    0% {
-      transform: translateY(3.125rem);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  @keyframes fade-left {
-    0% {
-      transform: translateX(-6.25rem);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  
-  @keyframes fade-right {
-    0% {
-      transform: translateX(6.25rem);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-   */
 
 
-
+/* tabletviewcss */
 @media only screen and (max-width:81.25rem){
     
     .service-container{
@@ -326,9 +262,7 @@ body{
     .heading-line{
         max-width: 5.25rem;
     }
-    .index-maincontainer{
-        /* gap: 12.5rem; */
-    }
+    
     .rightsection1{
         max-width: 23.188rem;
         height: 16.875rem;
@@ -487,6 +421,8 @@ body{
         max-width: 3.6875rem;
     }
     .index-maincontainer{
+        margin-left: 2rem;
+        margin-right: 2rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -505,7 +441,7 @@ body{
     }
     .paragraphediting{
         max-width: 22.1563rem;
-        height: 22.813rem;
+        /* height: 16.813rem; */
     }
     .paragraphediting h1{
         max-width: 20.3125rem;
@@ -522,42 +458,35 @@ body{
     
     }
     .imageediting1 {
-        margin-bottom: 0.625rem;
-        margin-top: -3.125rem;
-        max-width: 20.6875rem;
-        height: 15.8125rem;
+        max-width: 100%;
+        height: auto;
     }
     .imageediting2 {
-        margin-bottom: 1.1875rem;
-        max-width: 20.625rem;
-        height: 13.9375rem;
+        max-width: 100%;
+        height: auto;
     }
     .imageediting3 {
-        margin-bottom: -12.5rem;
-        margin-top: -5.0625rem;
-        max-width: 20.6875rem;
-        height: 15.25rem;
+        max-width: 100%;
+        height: auto;
 
     }
     .imageediting4 {
-        margin-bottom: 0.625rem;
-        margin-top: -4.375rem;
-        max-width: 20.625rem;
-        height: 23.75rem;
+        max-width: 100%;
+        height: auto;
     }
     .imageediting5 {
-        margin-bottom: 0.6875rem;
-        max-width: 20.375rem;
-        height: 16.0625rem;
+        max-width: 100%;
+        height: auto;
     }
     .index-maincontainer2{
         row-gap: 0.3125rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     .index-maincontainer2 h1{
         font-size: 1.875rem;
     }
     .index-maincontainer2 p{
-        max-width: 33rem;
         font-size: 0.875rem;
         margin-bottom: 1.375rem;
     }
@@ -567,28 +496,25 @@ body{
     }
     .index-maincontainer2-section h3{
         font-size: 1.125rem;
-        margin-bottom: -1.875rem;
     }
     .rightsectiondown{
         height: auto;
     }
     .leftsectiondown p{
-        max-width: 21.3125rem;
         text-align: center;
     }
     .rightsectiondown p{
-        max-width: 21.3125rem;
         text-align: center;
     }
     .leftsectiondownimage{
-        max-width: 20.5rem;
-        height: 11.25rem;
+        max-width: 100%;
+        height: auto;
         align-items: center;
         margin: auto;
     }
     .rightsectiondownimage{
-        max-width: 20.5rem;
-        height: 11.25rem;
+        max-width: 100%;
+        height: auto;
         align-items: center;
         margin: auto;
     }
@@ -611,9 +537,11 @@ body{
     }
     .leftsection-section3-line{
         margin-right: 0.3125rem;
-        margin-top: 1.3125rem;
-        max-width: 0rem;
-        height: 2.625rem;
+    margin-top: 0.957rem
+
+;
+    max-width: 0rem;
+    height: 2.2109rem;
         border: 0.0938rem black solid;
     }
     .leftsection-section5-line{
