@@ -3,6 +3,7 @@
     padding: 0rem;
     font-family: 'Calibri','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
+
 .index-maincontainer{
     margin-left: 2rem;
     margin-right: 2rem;
@@ -164,6 +165,16 @@ body{
     margin-left: 2rem;
     margin-right: 2rem;
 }
+.imagedownsection{
+    display: flex;
+    flex-direction: row;
+    column-gap: 4.688rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.visibleimage{
+    display: none;
+}
 .index-maincontainer2 h1{
     color: #000;
     font-size: 3.75rem;
@@ -222,9 +233,11 @@ body{
 }
 .rightsectiondown p{
     max-width: 45.938rem;
-    margin-bottom: 7.313rem;
+    margin-bottom: 2.813rem;
     text-align: left;
     font-weight: 400;
+    /* min-height: 24.3rem; */
+    
 }
 .rightsectiondown h1{
     text-align: center;
@@ -380,7 +393,7 @@ body{
 
     }
     .rightsectiondown{
-        height: 52.625rem;
+        /* height: 52.625rem; */
     }
     .leftsectiondown p{
         max-width: 30.125rem ;
@@ -388,7 +401,7 @@ body{
     
     .rightsectiondown p{
         max-width: 30.125rem ;
-        margin-bottom: 12.813rem;
+        /* margin-bottom: 12.813rem; */
     }
     .leftsectiondownimage{
         max-width: 100%;
@@ -571,5 +584,12 @@ body{
         max-width: 0rem;
         height: 3.375rem;
         border: 0.0938rem black solid;
+    }
+    .visibleimage{
+        display: block;
+
+    }
+    .imagedownsection{
+        display: none;
     }
 }
