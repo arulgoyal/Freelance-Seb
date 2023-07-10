@@ -586,9 +586,9 @@ margin: 0.25rem;
         font-size: 1rem;
         /* margin-bottom: 0.5rem; */
     }
-    .index-secondcontainer-listcontainer{
-        /* margin-top: -2rem; */
-    }
+    /* .index-secondcontainer-listcontainer{
+        /* margin-top: -2rem;
+    } */
     .index-secondcontainer-listcontainer-section{
         display: flex;
         flex-direction: column;
