@@ -34,7 +34,7 @@ body{
 .index-firstcontainer-section2{
     display: flex;
     flex-direction: row;
-    margin-top: -5rem;
+    margin-top: -4rem;
     margin-bottom: 2rem;
     column-gap: 2rem;
 
@@ -42,6 +42,7 @@ body{
 .index-firstcontainer-section1-paragraph{
     display: flex;
     flex-direction: column;
+    max-width: 46rem;
 }
 .index-firstcontainer-section1-paragraph h1{
     color: #000;
@@ -74,7 +75,7 @@ body{
     width: 36.625rem;
     height: 4.79988rem;
     /* margin-left: 19rem; */
-    margin-top: 1.75rem;
+    margin-top: 0.75rem;
 }
 .imageediting{
     width: 100%;
