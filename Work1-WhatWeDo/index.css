@@ -48,6 +48,8 @@ body{
 }
 .midcontainer{
     z-index: -1;
+    margin-left: 4rem;
+    margin-top: 1rem;
 }
 .vector1{
     
@@ -59,9 +61,6 @@ body{
 }
 .vector2{
     z-index: -1;
-    margin-left: -6.25rem;
-    margin-right: -6.25rem;
-    margin-top: 6.25rem;
     
 }
 .paragraphediting{
@@ -103,10 +102,15 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top:1rem ;
 }
 .imageediting{
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .imageediting1 {
     max-width: 100%;
@@ -116,29 +120,38 @@ body{
 .imageediting2 {
     max-width: 100%;
     height: auto;
-    margin-bottom: 7.875rem;
+    margin-bottom: 2.875rem;
 }
 .imageediting3 {
     max-width: 100%;
     height: auto;
-    margin-bottom: 7.875rem;
+    margin-bottom: 3.875rem;
 }
 .imageediting4 {
     max-width: 100%;
     height: auto;
-    margin-bottom: 2.875rem;
+margin-bottom: 4.875rem;
+margin-top: 2rem;
 }
 .imageediting5 {
     max-width: 100%;
     height: auto;
-    margin-bottom: 1.875rem;
+margin-bottom: 4.875rem;
+margin-top: 2.75rem;
+}
+.imageediting0{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4.875rem;
+    margin-top: 2rem;
+    
 }
 .rightsection1{
     max-width: 40.813rem;
-    height: 34.5rem;
+    height: 28.5rem;
 }
 
-.beforeimage {
+/* .beforeimage {
     border-radius: 3.75rem;
     max-width: 53.313rem;
     max-height:38.375rem;
@@ -147,7 +160,7 @@ body{
     top: 0rem;
     z-index: -1;
 
-}
+} */
 .index-maincontainer2{
     display: flex;
     flex-direction: column;
@@ -167,7 +180,7 @@ body{
 }
 .imagedownsection{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     column-gap: 4.688rem;
     justify-content: center;
     margin-bottom: 2rem;
@@ -392,9 +405,9 @@ body{
         font-size: 1.375rem;
 
     }
-    .rightsectiondown{
-        /* height: 52.625rem; */
-    }
+    /* .rightsectiondown{
+        height: 52.625rem;
+    } */
     .leftsectiondown p{
         max-width: 30.125rem ;
     }
