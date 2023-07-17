@@ -4,57 +4,57 @@
     font-family: 'Calibri','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
-.index-maincontainer{
+.WhatWeDo-index-maincontainer{
     margin-left: 2rem;
     margin-right: 2rem;
 }
-.leftcontainer{
+.WhatWeDo-leftcontainer{
     display: flex;
     flex-direction: column;
 }
 body{
     background-color: #F4EEDB;
 }
-.mobileview{
+.WhatWeDo-mobileview{
     display: none;
 }
-.line-img{
+.WhatWeDo-line-img{
     display: none;
 }
-.service-container{
+.WhatWeDo-service-container{
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     margin: 1rem;
 }
-.service-container h1{
+.WhatWeDo-service-container h1{
     
     color: #0A4988; font-size: 3.75rem; font-family: Calibri; font-weight: 700; word-wrap: break-word;
 }
-.index-maincontainer{
+.WhatWeDo-index-maincontainer{
     display: flex;
     justify-content: center;
     /* gap: 11.25rem; */
 
 }
-.leftcontainer{
+.WhatWeDo-leftcontainer{
     display: flex;
     flex-direction: column;
 }
-.spaceinleftsection{
+.WhatWeDo-spaceinleftsection{
     max-height: 3.438rem;
 }
-.rightcontainer{
+.WhatWeDo-rightcontainer{
     display: flex;
     flex-direction: column;
 }
-.midcontainer{
+.WhatWeDo-midcontainer{
     z-index: -1;
     margin-left: 4rem;
     margin-top: 1rem;
 }
-.vector1{
+.WhatWeDo-vector1{
     
     z-index: -1;
     margin-left: -11.25rem;
@@ -62,11 +62,11 @@ body{
     margin-top: 12.25rem;
     
 }
-.vector2{
+.WhatWeDo-vector2{
     z-index: -1;
     
 }
-.paragraphediting{
+.WhatWeDo-paragraphediting{
     /* height: 31.125rem; */
     max-width: 34.938rem;
     display: flex;
@@ -78,10 +78,10 @@ body{
 
 }
 
-.tabletviewpath{
+.WhatWeDo-tabletviewpath{
     display: none;
 }
-.paragraphediting h1{
+.WhatWeDo-paragraphediting h1{
     font-size: 3.75rem;
     max-width: 56.375rem;
     /* min-width: 18.938rem; */
@@ -90,7 +90,7 @@ body{
     font-weight: 700;
     line-height: normal;
 }
-.paragraphediting h3{
+.WhatWeDo-paragraphediting h3{
     font-size: 2.5rem;
     color: #000;
     font-family: Calibri;
@@ -98,7 +98,7 @@ body{
     font-weight: 400;
     line-height: normal;
 }
-.paragraphediting p{
+.WhatWeDo-paragraphediting p{
     font-size: 1.125rem;
     color: #000;
     font-family: Calibri;
@@ -107,7 +107,7 @@ body{
     line-height: normal;
     margin-top:1rem ;
 }
-.imageediting{
+.WhatWeDo-imageediting{
     width: 100%;
     height: auto;
     display: flex;
@@ -115,46 +115,46 @@ body{
     align-items: center;
     
 }
-.imageediting1 {
+.WhatWeDo-imageediting1 {
     max-width: 100%;
     height: auto;
     margin-bottom: 4.0625rem;
 }
-.imageediting2 {
+.WhatWeDo-imageediting2 {
     max-width: 100%;
     height: auto;
     margin-bottom: 2.875rem;
 }
-.imageediting3 {
+.WhatWeDo-imageediting3 {
     max-width: 100%;
     height: auto;
     margin-bottom: 3.875rem;
 }
-.imageediting4 {
+.WhatWeDo-imageediting4 {
     max-width: 100%;
     height: auto;
 margin-bottom: 4.875rem;
 margin-top: 2rem;
 }
-.imageediting5 {
+.WhatWeDo-imageediting5 {
     max-width: 100%;
     height: auto;
 margin-bottom: 4.875rem;
 margin-top: 2.75rem;
 }
-.imageediting0{
+.WhatWeDo-imageediting0{
     max-width: 100%;
     height: auto;
     margin-bottom: 4.875rem;
     margin-top: 2rem;
     
 }
-.rightsection1{
+.WhatWeDo-rightsection1{
     max-width: 40.813rem;
     height: 28.5rem;
 }
 
-/* .beforeimage {
+/* .WhatWeDo-beforeimage {
     border-radius: 3.75rem;
     max-width: 53.313rem;
     max-height:38.375rem;
@@ -164,7 +164,7 @@ margin-top: 2.75rem;
     z-index: -1;
 
 } */
-.index-maincontainer2{
+.WhatWeDo-index-maincontainer2{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,7 +173,7 @@ margin-top: 2.75rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
-.index-maincontainer2-section{
+.WhatWeDo-index-maincontainer2-section{
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -181,17 +181,17 @@ margin-top: 2.75rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
-.imagedownsection{
+.WhatWeDo-imagedownsection{
     display: flex;
     flex-direction: row-reverse;
     column-gap: 4.688rem;
     justify-content: center;
     margin-bottom: 2rem;
 }
-.visibleimage{
+.WhatWeDo-visibleimage{
     display: none;
 }
-.index-maincontainer2 h1{
+.WhatWeDo-index-maincontainer2 h1{
     color: #000;
     font-size: 3.75rem;
     font-family: Calibri;
@@ -199,7 +199,7 @@ margin-top: 2.75rem;
     font-weight: 700;
     line-height: normal;
 }
-.index-maincontainer2 p{
+.WhatWeDo-index-maincontainer2 p{
     color: #000;
     text-align: center;
     font-size: 1.125rem;
@@ -209,18 +209,18 @@ margin-top: 2.75rem;
     line-height: normal;
     max-width: 74.375rem;
 }
-.rightsectiondown{
+.WhatWeDo-rightsectiondown{
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
 }
-.leftsectiondown{
+.WhatWeDo-leftsectiondown{
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
 }
 
-.index-maincontainer2-section h1{
+.WhatWeDo-index-maincontainer2-section h1{
     color: #000;
     font-size: 2.5rem;
     font-family: Calibri;
@@ -230,7 +230,7 @@ margin-top: 2.75rem;
     text-align: center;
     /* max-height: 3.063rem; */
 }
-.index-maincontainer2-section h3{
+.WhatWeDo-index-maincontainer2-section h3{
     color: #000;
     font-size: 1.625rem;
     font-family: Calibri;
@@ -241,13 +241,13 @@ margin-top: 2.75rem;
     /* max-height: 4.125rem; */
 }
 
-.leftsectiondown p{
+.WhatWeDo-leftsectiondown p{
     max-width: 45.938rem;
     margin-bottom: 2.813rem;
     text-align: left;
     font-weight: 400;
 }
-.rightsectiondown p{
+.WhatWeDo-rightsectiondown p{
     max-width: 45.938rem;
     margin-bottom: 2.813rem;
     text-align: left;
@@ -255,19 +255,19 @@ margin-top: 2.75rem;
     /* min-height: 24.3rem; */
     
 }
-.rightsectiondown h1{
+.WhatWeDo-rightsectiondown h1{
     text-align: center;
     /* height: 3.063rem; */
 }
-.rightsectiondownimage{
+.WhatWeDo-rightsectiondownimage{
     max-width: 100%;
     height: auto;
 }
-.leftsectiondownimage{
+.WhatWeDo-leftsectiondownimage{
     max-width: 100%;
     height: auto;
 }
-.vector3{
+.WhatWeDo-vector3{
     display: none;
 }
 
@@ -276,10 +276,10 @@ margin-top: 2.75rem;
 /* tabletviewcss */
 @media only screen and (max-width:81.25rem){
     
-    .service-container{
+    .WhatWeDo-service-container{
         margin: 0.625rem;
     }
-    .service-container h1{
+    .WhatWeDo-service-container h1{
         color: #0A4988;
         font-size: 3rem;
         font-family: Calibri;
@@ -288,29 +288,29 @@ margin-top: 2.75rem;
         line-height: normal;
         
     }
-    .heading-line{
+    .WhatWeDo-heading-line{
         max-width: 5.25rem;
     }
     
-    .rightsection1{
+    .WhatWeDo-rightsection1{
         max-width: 23.188rem;
         height: 16.875rem;
     }
-    .vector2 {
+    .WhatWeDo-vector2 {
         z-index: -1;
         margin-left: -6.25rem;
         margin-right: -0.25rem;
         margin-top: 12.25rem;
     }
-    .spaceinleftsection{
+    .WhatWeDo-spaceinleftsection{
         height: 2.188rem;
     }
-    .paragraphediting{
+    .WhatWeDo-paragraphediting{
         max-width: 40.375rem;
         /* height: 25.263rem; */
         flex-shrink: 0;
     }
-    .paragraphediting h1{
+    .WhatWeDo-paragraphediting h1{
         max-width: 25.5rem;
         color: #000;
         font-size: 3rem;
@@ -318,7 +318,7 @@ margin-top: 2.75rem;
         font-weight: 700;
         line-height: normal;
     }
-    .paragraphediting h3{
+    .WhatWeDo-paragraphediting h3{
         max-width: 25.25rem;
         color: #000;
         font-size: 2rem;
@@ -326,7 +326,7 @@ margin-top: 2.75rem;
         font-weight: 400;
         line-height: normal;
     }
-    .paragraphediting p{
+    .WhatWeDo-paragraphediting p{
         color: #000;
         font-size: 0.938rem;
         font-family: Calibri;
@@ -334,7 +334,7 @@ margin-top: 2.75rem;
         font-weight: 400;
         line-height: normal;
     }
-    .beforeimage {
+    .WhatWeDo-beforeimage {
         border-radius: 3.75rem;
         max-width: 28.3125rem;
         height: 20.375rem;
@@ -345,86 +345,105 @@ margin-top: 2.75rem;
         z-index: -1;
     
     }
-    .imageediting1 {
+    .WhatWeDo-imageediting1 {
         margin-bottom: 1.125rem;
         margin-top: -2rem;
         max-width: 100%;
         height: auto;
     }
-    .imageediting2 {
+    .WhatWeDo-imageediting2 {
         margin-bottom: 1.1875rem;
         margin-top: -2rem;
         max-width: 100%;
         height: auto;
     }
-    .imageediting3 {
+    .WhatWeDo-imageediting3 {
         margin-bottom: 1.875rem;
         margin-top: -1.5625rem;
         max-width: 100%;
         height: auto;
 
     }
-    .imageediting4 {
+    .WhatWeDo-imageediting4 {
         margin-bottom: 0rem;
         margin-top: -1.625rem;
         max-width: 100%;
         height: auto;
     }
-    .imageediting5 {
+    .WhatWeDo-imageediting5 {
         margin-bottom: 0.6875rem;
         margin-top: -2rem;
         max-width: 100%;
         height: auto;
     }
     
-    .tabletviewpath{
+    .WhatWeDo-tabletviewpath{
         display: block;
 
     }
-    .webviewpath{
+    .WhatWeDo-webviewpath{
         display: none;
     }
-    .index-maincontainer2{
+    .WhatWeDo-index-maincontainer2{
         row-gap: 0.625rem;
     }    
-    .index-maincontainer2-section{
+    .WhatWeDo-index-maincontainer2 h1{
+        color: #000;
+        font-family: Calibri;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }    
+    .WhatWeDo-index-maincontainer2 p{
+        color: #000;
+        text-align: center;
+        font-family: Calibri;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }    
+    .WhatWeDo-index-maincontainer2-section{
         column-gap: 2.188rem;
     }
-    .index-maincontainer2{
+    .WhatWeDo-index-maincontainer2{
         font-size: 2.5rem;
     }
     
-    .index-maincontainer2 p{
+    .WhatWeDo-index-maincontainer2 p{
         font-size: 1rem;
         max-width: 48.75rem;
     }
-    .index-maincontainer2-section h1{
+    .WhatWeDo-index-maincontainer2-section h1{
         text-align: center;
         font-size: 2rem;
 
     }
     
-    .index-maincontainer2-section h3{
+    .WhatWeDo-index-maincontainer2-section h3{
         font-size: 1.375rem;
 
     }
-    /* .rightsectiondown{
+    /* .WhatWeDo-rightsectiondown{
         height: 52.625rem;
     } */
-    .leftsectiondown p{
+    .WhatWeDo-leftsectiondown p{
         max-width: 30.125rem ;
+        font-weight: 400;
     }
     
-    .rightsectiondown p{
+    .WhatWeDo-rightsectiondown p{
         max-width: 30.125rem ;
+        font-weight: 400;
         /* margin-bottom: 12.813rem; */
     }
-    .leftsectiondownimage{
+    .WhatWeDo-leftsectiondownimage{
         max-width: 100%;
     height: auto;
         align-items: center;
     }
-    .rightsectiondownimage{
+    .WhatWeDo-rightsectiondownimage{
         max-width: 100%;
     height: auto;
         align-items: center;
@@ -434,143 +453,157 @@ margin-top: 2.75rem;
 }
 /* mobile view css */
 @media only screen and (max-width:40.625rem){
-    .mobileview{
+    .WhatWeDo-mobileview{
         display: block;
     }
-    .webview{
+    .WhatWeDo-webview{
         display: none;
     }
-    .tabletviewpath{
+    .WhatWeDo-tabletviewpath{
         display: none;
     }
-    .beforeimage{
+    .WhatWeDo-beforeimage{
         display: none;
     }
-    .service-container{
+    .WhatWeDo-service-container{
         margin: 0.3125rem;
     }
-    .service-container h1{
+    .WhatWeDo-service-container h1{
         font-size: 2rem;
     }
-    .heading-line{
+    .WhatWeDo-heading-line{
         max-width: 3.6875rem;
     }
-    .index-maincontainer{
+    .WhatWeDo-index-maincontainer{
         margin-left: 2rem;
         margin-right: 2rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .index-maincontainer2{
+    .WhatWeDo-index-maincontainer2{
         flex-direction: column;
     }
-    .index-maincontainer2-section{
+    .WhatWeDo-index-maincontainer2-section{
         flex-direction: column;
     }
-    .rightsection1{
+    .WhatWeDo-rightsection1{
         display: none;
     }
-    .spaceinleftsection{
+    .WhatWeDo-spaceinleftsection{
         height: 2.188rem;
     }
-    .paragraphediting{
+    .WhatWeDo-paragraphediting{
         max-width: 22.1563rem;
         /* height: 16.813rem; */
     }
-    .paragraphediting h1{
+    .WhatWeDo-paragraphediting h1{
         max-width: 20.3125rem;
         font-size: 1.625rem;
     }
-    .paragraphediting h3{
+    .WhatWeDo-paragraphediting h3{
         max-width: 18.75rem;
         font-size: 1.25rem;
 
     }
-    .paragraphediting p{
+    .WhatWeDo-paragraphediting p{
         max-width: 21.875rem;
         font-size: 0.8125rem;
     
     }
-    .imageediting1 {
+    .WhatWeDo-imageediting{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .WhatWeDo-imageediting0{
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1.875rem;
+    margin-top: -1rem;
+    }
+    .WhatWeDo-imageediting1 {
         max-width: 100%;
         height: auto;
     }
-    .imageediting2 {
+    .WhatWeDo-imageediting2 {
         max-width: 100%;
         height: auto;
     }
-    .imageediting3 {
+    .WhatWeDo-imageediting3 {
         max-width: 100%;
         height: auto;
 
     }
-    .imageediting4 {
+    .WhatWeDo-imageediting4 {
         max-width: 100%;
         height: auto;
     }
-    .imageediting5 {
+    .WhatWeDo-imageediting5 {
         max-width: 100%;
         height: auto;
     }
-    .index-maincontainer2{
+    .WhatWeDo-index-maincontainer2{
         row-gap: 0.3125rem;
         margin-left: 2rem;
         margin-right: 2rem;
     }
-    .index-maincontainer2 h1{
+    .WhatWeDo-index-maincontainer2 h1{
         font-size: 1.875rem;
     }
-    .index-maincontainer2 p{
+    .WhatWeDo-index-maincontainer2 p{
         font-size: 0.875rem;
         margin-bottom: 1.375rem;
     }
-    .index-maincontainer2-section h1{
+    .WhatWeDo-index-maincontainer2-section h1{
         font-size: 1.5rem;
         margin-bottom: -0.625rem;
     }
-    .index-maincontainer2-section h3{
+    .WhatWeDo-index-maincontainer2-section h3{
         font-size: 1.125rem;
     }
-    .rightsectiondown{
+    .WhatWeDo-rightsectiondown{
         height: auto;
     }
-    .leftsectiondown p{
+    .WhatWeDo-leftsectiondown p{
         text-align: center;
     }
-    .rightsectiondown p{
+    .WhatWeDo-rightsectiondown p{
         text-align: center;
     }
-    .leftsectiondownimage{
+    .WhatWeDo-leftsectiondownimage{
         max-width: 100%;
         height: auto;
         align-items: center;
         margin: auto;
     }
-    .rightsectiondownimage{
+    .WhatWeDo-rightsectiondownimage{
         max-width: 100%;
         height: auto;
         align-items: center;
         margin: auto;
     }
-    .paragraphediting-firstdiv{
+    .WhatWeDo-paragraphediting-firstdiv{
         display: flex;
         
         
 
     }
-    .paragraphediting-seconddiv{
+    .WhatWeDo-paragraphediting-seconddiv{
         display: flex;
         flex-direction: column;
     }
-    .leftsection-section1-line{
+    .WhatWeDo-leftsection-section1-line{
         margin-right: 0.3125rem;
         margin-top: 0.938rem;
         max-width: 0rem;
         height: 1.5625rem;
         border: 0.0938rem black solid;
     }
-    .leftsection-section3-line{
+    .WhatWeDo-leftsection-section3-line{
         margin-right: 0.3125rem;
     margin-top: 0.957rem
 
@@ -579,39 +612,39 @@ margin-top: 2.75rem;
     height: 2.2109rem;
         border: 0.0938rem black solid;
     }
-    .leftsection-section5-line{
+    .WhatWeDo-leftsection-section5-line{
         margin-right: 0.3125rem;
         margin-top: 0.938rem;
         max-width: 0rem;
         height: 1.6875rem;
         border: 0.0938rem black solid;
     }
-    .rightsection-section2-line{
+    .WhatWeDo-rightsection-section2-line{
         margin-right: 0.3125rem;
         margin-top: 0.875rem;
         max-width: 0rem;
         height: 2rem;
         border: 0.0938rem black solid;
     }
-    .rightsection-section4-line{
+    .WhatWeDo-rightsection-section4-line{
         margin-right: 0.3125rem;
         margin-top: 1rem;
         max-width: 0rem;
         height: 1.6875rem;
         border: 0.0938rem black solid;
     }
-    .rightsection-section6-line{
+    .WhatWeDo-rightsection-section6-line{
         margin-right: 0.3125rem;
         margin-top: 1.25rem;
         max-width: 0rem;
         height: 3.375rem;
         border: 0.0938rem black solid;
     }
-    .visibleimage{
+    .WhatWeDo-visibleimage{
         display: block;
 
     }
-    .imagedownsection{
+    .WhatWeDo-imagedownsection{
         display: none;
     }
 }
