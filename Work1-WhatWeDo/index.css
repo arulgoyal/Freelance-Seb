@@ -118,35 +118,38 @@ body{
 .WhatWeDo-imageediting1 {
     max-width: 100%;
     height: auto;
-    margin-bottom: 4.0625rem;
+    margin-bottom: 1.75rem;
+    margin-top: 6rem;
+
 }
 .WhatWeDo-imageediting2 {
     max-width: 100%;
     height: auto;
-    margin-bottom: 2.875rem;
+    margin-bottom: 6.275rem;
 }
 .WhatWeDo-imageediting3 {
     max-width: 100%;
     height: auto;
     margin-bottom: 3.875rem;
+    margin-top: 10rem;
 }
 .WhatWeDo-imageediting4 {
     max-width: 100%;
     height: auto;
-margin-bottom: 4.875rem;
+margin-bottom: 6.875rem;
 margin-top: 2rem;
 }
 .WhatWeDo-imageediting5 {
     max-width: 100%;
     height: auto;
-margin-bottom: 4.875rem;
+margin-bottom: 2.875rem;
 margin-top: 2.75rem;
 }
 .WhatWeDo-imageediting0{
     max-width: 100%;
     height: auto;
     margin-bottom: 4.875rem;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     
 }
 .WhatWeDo-rightsection1{
@@ -291,10 +294,32 @@ margin-top: 2.75rem;
     .WhatWeDo-heading-line{
         max-width: 5.25rem;
     }
-    
+    .WhatWeDo-leftsection2{
+        max-width: 23.188rem;
+        /* max-height: 25rem; */
+    }
+    .WhatWeDo-leftsection4{
+        max-width: 23.188rem;
+        /* max-height: 25rem; */
+    }
+    .WhatWeDo-leftsection6{
+        max-width: 23.188rem;
+        /* max-height: 25rem; */
+    }
     .WhatWeDo-rightsection1{
         max-width: 23.188rem;
-        height: 16.875rem;
+        height: auto;
+    }
+    .WhatWeDo-rightsection3{
+        max-width: 23.188rem;
+        /* max-height: 25rem; */
+    }
+    .WhatWeDo-rightsection5{
+        max-width: 23.188rem;
+        /* max-height: 25rem; */
+    }
+    .WhatWeDo-rightsection2{
+        margin-top: 1rem;
     }
     .WhatWeDo-vector2 {
         z-index: -1;
@@ -303,7 +328,7 @@ margin-top: 2.75rem;
         margin-top: 12.25rem;
     }
     .WhatWeDo-spaceinleftsection{
-        height: 2.188rem;
+        height: 0rem;
     }
     .WhatWeDo-paragraphediting{
         max-width: 40.375rem;
@@ -345,34 +370,46 @@ margin-top: 2.75rem;
         z-index: -1;
     
     }
+    .WhatWeDo-paragraphediting{
+        /* margin-bottom: 0rem; */
+    }
+    .WhatWeDo-imageediting0 {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+        margin-top: 0rem;
+
+    }
     .WhatWeDo-imageediting1 {
-        margin-bottom: 1.125rem;
+        margin-bottom: 7rem;
         margin-top: -2rem;
         max-width: 100%;
         height: auto;
+        
     }
     .WhatWeDo-imageediting2 {
         margin-bottom: 1.1875rem;
-        margin-top: -2rem;
+        margin-top: -1.25rem;
         max-width: 100%;
         height: auto;
+        
     }
     .WhatWeDo-imageediting3 {
         margin-bottom: 1.875rem;
-        margin-top: -1.5625rem;
+        margin-top: 8rem;
         max-width: 100%;
         height: auto;
 
     }
     .WhatWeDo-imageediting4 {
-        margin-bottom: 0rem;
-        margin-top: -1.625rem;
+        margin-bottom: 6rem;
+        margin-top: 0.375rem;
         max-width: 100%;
         height: auto;
     }
     .WhatWeDo-imageediting5 {
         margin-bottom: 0.6875rem;
-        margin-top: -2rem;
+        margin-top: 0.75rem;
         max-width: 100%;
         height: auto;
     }
