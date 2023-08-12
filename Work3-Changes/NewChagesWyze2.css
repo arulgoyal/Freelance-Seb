@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+  font-family: MyFont;
+  src: url(./Font/Calibri.ttf);
+}
+:root{
+    --background-color: #F4EEDB;
+    --first-color: #231F20;
+    --second-color: #0A4988;
+    --third-color: #fff;
+    --fourth-color: #777;
+
+    --btn-color: #0070A9;
+    --btn-color-hover: #006394;
+
+
+    --bg-transparant-color: rgba(0,0,0,0.1);
+    --bg-transparant-color-01: rgba(0,0,0,0.1);
+    --bg-transparant-color-02: rgba(106,89,209,0.1);
+    --line-color: #d7d7d7;
+
+
+    --box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+
+    --small-font-size: 0.9em;
+    --normal-font-size: 1em;
+
+/* rgb(28, 129, 217) Buttons color */
+
+
+    /* Contact Colors */
+    --main-hue: 208;
+    --main-color: hsl(var(--main-hue), 92%, 54%);
+    --main-color-hover: hsl(var(--main-hue), 77%, 48%);
+    --light-main-color: hsl(var(--main-hue), 91%, 55%);
+    --text-color: #000;
+    --nav-color: hsl(var(--main-hue), 17%, 79%);
+    --bg-color: #F4EEDB;
+    --light-text-color: #9ca7b6;
+    --input-bg: hsla(var(--main-hue), 50%, 50%, 6.5%);
+    --input-bg-hover: hsla(var(--main-hue), 50%, 50%, 14%);
+    --input-text: #8c9aaf;
+    --input-shadow: hsla(var(--main-hue), 92%, 54%, 0.169);
+}
+
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    transition: .5s ease;
+    font-family: MyFont;
+    background-color: var(--background-color);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+
+/* Table Section */
+
+.assignments{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .table-box
+  {
+    margin: 50px auto;
+  }
+  .table-box p{
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+  }
+  
+  .table-row{
+    display: table;
+    width: 70%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #000;
+    font-size: 13px;
+  }
+  .table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    vertical-align: middle;
+  }
+  .first-cell{
+    text-align: left;
+    padding-left: 10px;
+  }
+  .last-cell{
+    border-right: none;
+  }
+  .last-cell p{
+    margin-left: 80px;
+  }
+  @media only screen and (max-width: 1140px){
+  /* It has to be under eachother in one column at this aspect ratio */
+  }
+  @media only screen and (max-width: 600px) {
+  .table-row {
+    font-size: 11px;
+  }
+  }
+
+  /* END table Section */
+
+
+
+
+    /* START WhoWeAre Section */
+
+
+    .who_we_are_pageContainer {
+        background-color: #F4EEDB;
+        padding-left: 2em;
+        padding-right: 2em;
+        text-align: center;
+        padding-bottom: 3em;
+        padding-top: 2em;
+    }
+    .flex_item1_small_headertxt {
+        display: none;
+    }
+    .flex_item2_small_headertxt {
+        display: none;
+    }
+    .flex_item2_small_txt {
+        display: none;
+    }
+    
+    .flex_item1_small_txt {
+        display: none;
+    }
+    
+    .who_we_are_pageContainer > h1 {
+        color: #0A4988;
+        /* border-bottom: 1px solid black; */
+        font-size: 65px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.3em;
+        position: relative;
+    }
+    .who_we_are_pageContainer > h1::after {
+        content: '';
+        height: 3px;
+        width: 15%;
+        background: #0A4988;
+        position: absolute;
+        left: calc(50% - 7.5%);
+        bottom: -5px;
+    }
+    
+    .who_we_are_pageContainer > h2 {
+        font-size: 55px;
+        padding-bottom: 0.3em;
+    }
+    
+    .who_we_are_pageContainer > h4 {
+        font-size: 40px;
+        margin-bottom: 1em;
+    }
+    .QuoteTestWhoWeAre{
+      font-size: 22px;
+      color: gray;
+    }
+    
+    .who_we_are_pagecontent {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .who_we_are_pageitem {
+        margin-bottom: 2em;
+        gap: 2em;
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+    }
+    
+    .who_we_are_textcontainer {
+        flex: 1;
+    }
+    
+    .who_we_are_textcontainer p {
+        width: 90%;
+        margin-bottom: 0.7em;
+        font-size: 1em;
+    }
+    
+    .who_we_are_textcontainer h2 {
+        margin-top: 1em;
+        color: #0A4988;
+        font-size: 2.8em;
+        padding-bottom: 0.5em;
+    }
+    
+    .who_we_are_textcontainer h4 {
+        font-size: 2em;
+        padding-bottom: 0.5em;
+        display: flex;
+        align-items: center;
+    }
+    
+    .who_we_are_textcontainer h4 > img {
+        margin-left: 0.3em;
+        scale: 1.2;
+        cursor: pointer;
+    }
+    .who_we_are_textcontainer h4 > a{
+      margin-left: 0.3em;
+      scale: 1.2;
+      line-height: 20px;
+    }
+    
+    
+    .who_we_are_imgcontainer {
+        flex: 1;
+        /* width: 30vw; */
+        /* background-color: red; */
+        margin-top: 4em;
+    }
+    
+    .test_container {
+        width: 70%;
+        flex: 1;
+        background-color: #0A4988;
+        border-radius: 10px;
+        /* position: relative; */
+    }
+    
+    .who_we_are_imgcontainer img {
+        position: relative; 
+        top: -0.5em;
+        left: 0.5em;
+        width: 100%
+    }
+    
+    #gavin_img {
+        width: 26em;
+    }
+    
+    #gavin_img > img {
+        top: -0.8em;
+        left: 0.8em;
+    }
+    
+    .maze_imgcontainer {
+        position: relative;
+        width: 25em;
+        margin-top: 7em;
+    }
+    
+    .maze_img {
+        width: 15em;
+        margin-top: 1em;
+    }
+    
+    .vector_img {
+        margin-top: 1em;
+        width: 15.8em;
+        position: absolute;
+        left: 7.2em;
+        top: -9em;
+    }
+    
+    /* .highlights_container {
+        margin-top: 31em;
+    } */
+    
+    .highlights_container > h4 {
+        margin: 0;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    
+    .highlight_bold {
+        font-weight: bolder;
+    }
+    
+    @media screen and (max-width: 1030px) {
+        .who_we_are_pagecontent {
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+        .who_we_are_textcontainer h4 {
+          font-size: 1.6em;
+          padding-bottom: 0.5em;
+      }
+        .who_we_are_textcontainer h2 {
+          margin-top: 1em;
+          font-size: 2.2em;
+          padding-bottom: 0.5em;
+      }
+        
+        .who_we_are_pageContainer > h1 {
+          font-size: 55px;
+          margin-bottom: 0.3em;
+        }
+        .who_we_are_pageContainer > h2 {
+          font-size: 45px;
+          padding-bottom: 0.3em;
+        }
+        .who_we_are_pageContainer > h4 {
+          font-size: 30px;
+          margin-bottom: 1em;
+        }
+        .QuoteTestWhoWeAre{
+          font-size: 20px;
+          color: gray;
+        }
+        .test_container {
+            width: 90%;
+            flex: 1;
+        }
+        .maze_imgcontainer {
+            width: 23em;
+            margin-top: 10em;
+        }
+        .who_we_are_textcontainer > p {
+            width: 95%;
+        }
+        #gavin_img {
+            width: 20em;
+        }
+        #flex_item3_highlights_container {
+            width: 140%;
+        }
+    }
+    
+    @media screen and (max-width: 877px) {
+        .flex_item1_small_headertxt {
+            display: flex;
+            flex-direction: column;
+        }
+        .who_we_are_textcontainer h2 {
+          margin-top: 1em;
+          font-size: 2em;
+          padding-bottom: 0.5em;
+      }
+        .who_we_are_pageContainer {
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+        .who_we_are_pageContainer > h1 {
+          font-size: 45px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 0.3em;
+        }
+        .who_we_are_pageContainer > h2 {
+          font-size: 35px;
+          padding-bottom: 0.3em;
+        }
+        .who_we_are_pageContainer > h4 {
+          font-size: 20px;
+          margin-bottom: 1em;
+        }
+    
+        .flex_item1_large_headertxt {
+            display: none;
+        }
+        .flex_item1_large_txt {
+            display: none;
+        }
+        .flex_item1_small_txt {
+            display: flex;
+            flex-direction: column;
+        }
+        .flex_item2_small_headertxt {
+            display: flex;
+            flex-direction: column;
+        }
+        .flex_item2_large_headertxt{
+            display: none;
+        }
+        .flex_item2_small_txt {
+            display: flex;
+            flex-direction: column;
+        }
+        .flex_item2_large_txt {
+            display: none;
+        }
+        .who_we_are_pageitem {
+            flex-direction: column;
+        }
+        #flex_item2 {
+            order: -1;
+            flex-direction: column-reverse;
+        }
+        #flex_item2  p {
+            width: 65%;
+        }
+        .maze_imgcontainer {
+            width: 23em;
+            margin-top: -4em;
+            margin-bottom: -2em;
+            margin-left: auto;
+        }
+        .flex_item1_reduce_width_txt {
+            width: 50%;
+        }
+        .flex_item3_reduce_width_txt {
+            width: 60%;
+        }
+        #flex_item1_imgcontainer {
+            width: 50%;
+            margin-left: auto;
+            margin-top: -44.5em;
+        }
+        #gavin_img {
+            /* background-color: green; */
+            width: 16em;
+            margin-left: auto;
+            margin-top: -53em;
+        }
+        .highlights_container {
+            width: 100%;
+        }
+        #flex_item3_highlights_container {
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width: 680px) {
+        .who_we_are_pageContainer {
+            padding-left: 0.4em;
+            padding-right: 0.4em;
+        }
+        .who_we_are_textcontainer h2 {
+            margin-top: 1em;
+            font-size: 1.8em;
+            padding-bottom: 0.5em;
+        }
+        .who_we_are_textcontainer p {
+            width: 90%;
+            margin-bottom: 0.7em;
+            font-size: 0.8em;
+        }
+        .QuoteTestWhoWeAre{
+            font-size: 20px;
+            color: gray;
+        }
+        .who_we_are_pageContainer > h1 {
+          font-size: 35px;
+          margin-bottom: 0.3em;
+        }
+        .who_we_are_pageContainer > h2 {
+          font-size: 25px;
+          padding-bottom: 0.3em;
+        }
+        .who_we_are_pageContainer > h4 {
+          font-size: 15px;
+          margin-bottom: 1em;
+        }
+        .who_we_are_pagecontent {
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+        .flex_item1_reduce_width_txt {
+            width: 100%;
+        }
+    
+        .flex_item3_reduce_width_txt {
+            width: 100%;
+        }
+    
+        #flex_item1_imgcontainer {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -3em;
+        }
+        .flex_item1_small_txt p {
+            width: 100%;
+        }
+        #flex_item2 {
+            order: -1;
+            flex-direction: column-reverse;
+        }
+    
+        #flex_item2 p {
+            width: 100%;
+        }
+    
+        .maze_imgcontainer {
+            display: none;
+        }
+    
+        /* NEW CODE */
+        .reducetxt_width_mobile {
+            width: 80%;
+        }
+    
+        #gavin_img {
+            height: 10em;
+            margin-right: 1em;
+            width: 6em;
+            margin-top: -33em;
+        }
+    
+        #gavin_img>img {
+            height: 10em;
+        }
+    
+        .test_container {
+            flex: 1;
+            border-radius: 5px;
+        }
+    
+    }
+    
+    /* medaia querys for positioning gavin image */
+    @media screen and (max-width: 582px) {
+        #gavin_img {
+            margin-top: -36em;
+        }
+    }
+    
+    @media screen and (max-width: 462px) {
+        .who_we_are_pageContainer {
+            padding-bottom: 0;
+        }
+        #gavin_img {
+            width: 5.5em;
+            margin-top: -38.5em;
+        }
+    }
+    @media screen and (max-width: 433px) {
+        #gavin_img {
+            margin-top: -43em;
+            margin-right: unset;
+         }
+    }
+    @media screen and (max-width: 379px) {
+        #gavin_img {
+            margin-top: -47em;
+            width: 5em;
+        }
+    }
+    
+    
+    
+      /* END WhoWeAre Section */
