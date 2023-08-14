@@ -69,13 +69,32 @@ li{
 
 
 /* Table Section */
-
+.changes-firstdiv{
+    display: flex;
+    flex-direction: column;
+}
 .assignments{
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
   }
-  
+.changes-rowbox{
+    display: flex;
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+    margin: 50px auto;
+
+}
+.changes-columnbox1{
+    display: flex;
+    flex-direction: column;
+}
+.changes-columnbox2{
+    display: flex;
+    flex-direction: column;
+}
   .table-box
   {
     margin: 50px auto;
@@ -88,7 +107,7 @@ li{
   }
   
   .table-row{
-    display: table;
+    /* display: table; */
     width: 70%;
     margin: 10px auto;
     font-family: sans-serif;
@@ -98,24 +117,28 @@ li{
     font-size: 13px;
   }
   .table-cell{
-    display: table-cell;
-    width: 20%;
-    text-align: center;
+    /* display: table-cell; */
+    /* width: 20%; */
+    text-align: left;
+    font-size: 1.05rem;
     padding: 4px 0;
-    vertical-align: middle;
+    /* vertical-align: middle; */
   }
   .first-cell{
-    text-align: left;
-    padding-left: 10px;
+    /* text-align: left;
+    padding-left: 10px; */
   }
   .last-cell{
-    border-right: none;
+    /* border-right: none; */
   }
   .last-cell p{
-    margin-left: 80px;
+    /* margin-left: 80px; */
   }
   @media only screen and (max-width: 1140px){
   /* It has to be under eachother in one column at this aspect ratio */
+  .changes-rowbox{
+    flex-direction: column;
+  }
   }
   @media only screen and (max-width: 600px) {
   .table-row {
@@ -189,6 +212,7 @@ li{
     .who_we_are_pagecontent {
         display: flex;
         flex-direction: column;
+        /* align-items: center; */
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -247,7 +271,7 @@ li{
     .test_container {
         width: 70%;
         flex: 1;
-        background-color: #0A4988;
+        /* background-color: #0A4988; */
         border-radius: 10px;
         /* position: relative; */
     }
@@ -258,7 +282,6 @@ li{
         left: 0.5em;
         width: 100%
     }
-    
     #gavin_img {
         width: 26em;
     }
@@ -299,6 +322,9 @@ li{
     
     .highlight_bold {
         font-weight: bolder;
+    }
+    .changes-imageediting{
+        display: none;
     }
     
     @media screen and (max-width: 1030px) {
@@ -406,6 +432,7 @@ li{
         }
         .who_we_are_pageitem {
             flex-direction: column;
+            align-items: center;
         }
         #flex_item2 {
             order: -1;
@@ -443,8 +470,17 @@ li{
         #flex_item3_highlights_container {
             width: 100%;
         }
+        #gavin_img > img {
+            top: -5.8em;
+            left: 11.8em;
+        }
     }
-    
+    @media screen and (max-width: 780px) {
+        #gavin_img > img {
+            top: -10.8em;
+            left: 11.8em;
+        }
+    }
     @media screen and (max-width: 680px) {
         .who_we_are_pageContainer {
             padding-left: 0.4em;
@@ -530,11 +566,30 @@ li{
             flex: 1;
             border-radius: 5px;
         }
+        #gavin_img{
+            display: none;
+        }
+        .changes-imageediting{
+            display: block;
+            width: 50%;
+            height: auto;
+            align-items: center;
+            display: flex;
+
+        }
+        .changes-imageediting1{
+            max-width: 100%;
+            height: auto;
+            align-items: center;
+            margin: auto;
+            margin-top: -3rem;
+        }
+
     
     }
     
     /* medaia querys for positioning gavin image */
-    @media screen and (max-width: 582px) {
+    /* @media screen and (max-width: 582px) {
         #gavin_img {
             margin-top: -36em;
         }
@@ -561,7 +616,7 @@ li{
             width: 5em;
         }
     }
-    
+     */
     
     
       /* END WhoWeAre Section */
