@@ -571,7 +571,7 @@ li{
         }
         .changes-imageediting{
             display: block;
-            width: 50%;
+            width: 60%;
             height: auto;
             align-items: center;
             display: flex;
@@ -582,7 +582,11 @@ li{
             height: auto;
             align-items: center;
             margin: auto;
-            margin-top: -3rem;
+            /* margin-top: -3rem; */
+        }
+        .changes-gavinmobileparaflexbox{
+            display: flex;
+            flex-direction: row;
         }
 
     
